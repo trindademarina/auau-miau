@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Sistema Django{% endblock %}</title>
+</head>
+<body>
+<header>
+    <h1>Sistema da Aula de Django</h1>
+    <nav>
+        <a href="/">HomePage</a> |
+        <a href="/produtos/">Todos os Produtos</a> |
+        <a href="/sobre/">Nossa história</a> |
+    </nav>
+    <hr>
+</header>
+<main>
+    {% block content %}
+    {% endblock %}
+</main>
+<footer>
+    <hr> <p> PETSHOP AUAU&MIAU </p>
+</footer>
+</body>
+</html>
