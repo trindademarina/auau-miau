@@ -1,0 +1,38 @@
+/* Estilos gerais para a página Sobre */
+.sobre-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Títulos */
+.sobre-container h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ffca28; /* Detalhe divertido em amarelo */
+}
+
+.sobre-container h2:first-of-type {
+    margin-top: 0;
+}
+
+/* Parágrafos de texto e informações */
+.sobre-container p {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+    color: #555555;
+}
+
+/* Destaque para as informações de contato e endereço */
+.sobre-container p strong {
+    color: #2c3e50;
+}
